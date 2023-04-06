@@ -1,0 +1,8 @@
+version: "3"
+services:
+  neovim:
+    image: devenv
+    container_name: devflow 
+    tty: true
+    volumes:
+      - /mnt/c/Users/flori/Documents/sandbox:/workDir
