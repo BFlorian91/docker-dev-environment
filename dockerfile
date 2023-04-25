@@ -3,7 +3,7 @@ FROM alpine
 RUN apk update && apk upgrade
 
 # inotify-tools for file synchronization
-RUN apk add inotify-tools git curl wget neovim nodejs npm fish 
+RUN apk add inotify-tools git curl wget neovim nodejs npm fish build-base 
 
 # Install python/pip
 ENV PYTHONUNBUFFERED=1
